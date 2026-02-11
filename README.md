@@ -78,11 +78,8 @@ These methods allow smooth visualization of the probability density curve.
 
 ---
 
-## 📈 Results
+## Results
 
-- The GAN successfully models the transformed NO₂ distribution.
-- KDE aligns closely with histogram density.
-- The learned PDF reflects the non-linear structure of the data.
 
 ---
 
@@ -141,21 +138,16 @@ The parameters (μ, λ, c) are estimated from the transformed dataset.
 ---
 
 ##  Results
+<img width="509" height="91" alt="Screenshot 2026-02-11 at 10 26 32 PM" src="https://github.com/user-attachments/assets/69c6e118-a8d5-4f01-94ba-e77c4afa73bc" />
+<img width="435" height="39" alt="Screenshot 2026-02-11 at 10 27 15 PM" src="https://github.com/user-attachments/assets/a4f7494a-1983-4d29-b982-5109c5811b66" />
+<img width="457" height="72" alt="Screenshot 2026-02-11 at 10 27 49 PM" src="https://github.com/user-attachments/assets/84b4f9ca-3658-4c9c-a7e1-ce31a45cbaa8" />
+<img width="465" height="84" alt="Screenshot 2026-02-11 at 10 28 23 PM" src="https://github.com/user-attachments/assets/c06fac53-8395-46bb-81e5-b3ca8ca0e8fc" />
 
-- The estimated parameters define a smooth density curve.
-- The parametric model captures the central tendency effectively.
-- Demonstrates contrast between adversarial learning and analytical modeling.
+<img width="726" height="576" alt="Screenshot 2026-02-11 at 10 28 58 PM" src="https://github.com/user-attachments/assets/a866129c-6386-4d5e-977a-e8ab31e4d42d" />
 
----
 
-# 🔍 Comparison
+<img width="658" height="85" alt="Screenshot 2026-02-11 at 10 29 40 PM" src="https://github.com/user-attachments/assets/c96ec3ee-8390-49e4-a2c8-0f77e568892e" />
 
-| Aspect | GAN-Based Model | Parametric Model |
-|--------|-----------------|-----------------|
-| Assumption | No prior PDF assumption | Assumes exponential quadratic form |
-| Flexibility | High | Moderate |
-| Learning Method | Adversarial Training | Parameter Estimation |
-| Complexity | Higher | Lower |
 
 ---
 
